@@ -1,0 +1,99 @@
+@font-face{
+    font-family: NewYear;
+    src: url(./fonts/NewYearFont.otf);
+}
+
+body{
+    background:url(img/bg.png) no-repeat center;
+    background-size: cover;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.title{
+    font-family: NewYear;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    animation: blimk 10s normal infinite;
+}
+
+@keyframes blimk{
+    0%,100% {
+       color: white;
+    }
+    50%{
+        color: gold;
+    }
+    60%{
+        color: darkorange;
+    }
+    70%{
+        color:red;
+    }
+    80%{
+        color: blue;
+    }
+    90%{
+        color: blueviolet;
+    }
+    99%{
+        color: forestgreen;
+    }
+}
+
+ header{
+   min-height:100vh;
+   overflow: hidden;
+}
+canvas{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:-1;
+}
+.tup{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.bomba {
+    min-height: 100vh;
+    overflow: hidden;
+}
+.bomba-title{
+margin:10px;
+color: white;
+font-family: NewYear;
+font-size: 100px;
+text-align: center;
+animation: blimk 10s normal infinite;
+}
+
+.bomba-text {
+    color: white;
+}
+.bomba-list{
+      list-style:none;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+}
+.bomba-img{
+    margin: 20px;
+    height:120px;
+    width: 120px;
+}
+.bomba-itm{
+    width:200px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight: 100;
+    text-align: center;
+}
